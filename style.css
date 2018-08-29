@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#back{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+#players{
+    height: 50%;
+    width: 60%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.player-area{
+    height: 100%;
+    width: 50%;
+    background-color: whitesmoke;
+    padding: 7%;
+    position: relative;
+}
+.active{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(255,0,0,0.6);
+}
+.playerName{
+    text-align: center;
+    font-size: 22px;
+}
+.score{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 17px;
+}
+.currentScoreBox{
+    height: 40px;
+    width: 50px;
+    background-color: rgb(73, 71, 71);
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+.currentScore{
+    font-size: 15px;
+    margin-top: 2px;
+}
+#newGame{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 9px;
+}
+#diceImage{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(226, 185, 185);
+}
+#rollDice{
+    position: absolute;
+    top: 63%;
+    left: 49.5%;
+    transform: translate(-50%,-50%);
+    font-size: 9px;
+}
+#rollDice:hover, #hold:hover, #newGame:hover{
+    cursor: pointer;
+}
+#hold{
+    position: absolute;
+    top: 69%;
+    left: 49.5%;
+    transform: translate(-50%,-50%);
+    font-size: 9px;
+}
